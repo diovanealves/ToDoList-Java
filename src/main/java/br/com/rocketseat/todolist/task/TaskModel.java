@@ -11,7 +11,7 @@ import java.time.LocalDateTime;
 import java.util.UUID;
 
 @Data
-@Entity(name= "db_tasks")
+@Entity(name = "db_tasks")
 public class TaskModel {
     @Id
     @GeneratedValue(generator = "UUID")
